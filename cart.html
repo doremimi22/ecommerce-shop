@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Ecommerce Shop</title>
+    <title>Giỏ hàng - Ecommerce Shop</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,18 +14,22 @@
         </nav>
     </header>
 
-
     <main>
-        <h2>Sản phẩm nổi bật</h2>
-        <div class="product">
-            <h3>Áo thun basic</h3>
-            <p class="price">150.000đ</p>
-            <button>Thêm vào giỏ</button>
+        <h2>Giỏ hàng của bạn</h2>
+        <div class="cart-item">
+            <span>Áo thun basic</span>
+            <span class="price">150.000đ</span>
+            <span>x 2</span>
+        </div>
+        <div class="cart-total">
+            <strong>Tổng cộng: <span id="total">300.000đ</span></strong>
         </div>
     </main>
 
     <footer>
         <p>&copy; 2026 Ecommerce Shop</p>
     </footer>
+
+    <script src="src/cart.js"></script>
 </body>
 </html>
